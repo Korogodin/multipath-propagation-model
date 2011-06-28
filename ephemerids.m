@@ -76,8 +76,10 @@ switch n
 end
 theta0=theta0*pi/180;
 OMEGA=OMEGA*pi/180;
-ci=cos(1.131);
-si=sin(1.131);
+% ci=cos(1.131);
+% si=sin(1.131);
+ci=cos(deg2rad(55));  % for GPS
+si=sin(deg2rad(55)); 
 Tsat=t*1.552448385e-4;
 Tear=-t*7292115e-11;
 r=25478136;
